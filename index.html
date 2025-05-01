@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Testimonials Slider</title>
+
+  <!-- Font Awesome for star icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="testimonials">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="title">What our clients say</h2>
+    </div>
+    <div class="testimonials-content">
+      <div class="swiper testimonials-slider js-testimonials-slider">
+        <div class="swiper-wrapper">
+
+          <!-- Slide 1 -->
+          <div class="swiper-slide testimonials-item">
+            <div class="info">
+              <img src="imgs/round_profil_picture_after_.webp" alt="Profile photo of Jasmine Doe" style="width: 90px; height: 55px;">
+              <div class="text-box">
+                <h3 class="name">Jasmine Doe</h3>
+                <span class="job">Designer</span>
+              </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, odio saepe laboriosam illo nulla ex enim quia voluptate aliquid veniam.</p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="swiper-slide testimonials-item">
+            <div class="info">
+              <img src="imgs/pexels-pixabay-220453.jpg" alt="Profile photo of Jasmine Doe" style="width: 55px; height: 60px;">
+              <div class="text-box">
+                <h3 class="name">Alberto Corona</h3>
+                <span class="job">Web Developer</span>
+              </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, odio saepe laboriosam illo nulla ex enim quia voluptate aliquid veniam.</p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+
+
+
+        </div>
+        <!-- Pagination bullets -->
+        <div class="swiper-pagination js-testimonials-pagination"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
